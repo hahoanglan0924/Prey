@@ -1,0 +1,123 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 499997,
+                "file_path": "results\\multiAgents2\\Agent Controller\\Agent Controller-499997.onnx",
+                "reward": 32.69230769230769,
+                "creation_time": 1700452445.5592778,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Agent Controller\\Agent Controller-499997.pt"
+                ]
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\multiAgents2\\Agent Controller\\Agent Controller-999981.onnx",
+                "reward": 34.80392156862745,
+                "creation_time": 1700453370.776559,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Agent Controller\\Agent Controller-999981.pt"
+                ]
+            },
+            {
+                "steps": 1499991,
+                "file_path": "results\\multiAgents2\\Agent Controller\\Agent Controller-1499991.onnx",
+                "reward": 34.45205479452055,
+                "creation_time": 1700454256.3466787,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Agent Controller\\Agent Controller-1499991.pt"
+                ]
+            },
+            {
+                "steps": 1999937,
+                "file_path": "results\\multiAgents2\\Agent Controller\\Agent Controller-1999937.onnx",
+                "reward": 34.09090909090909,
+                "creation_time": 1700455151.5710754,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Agent Controller\\Agent Controller-1999937.pt"
+                ]
+            },
+            {
+                "steps": 2000001,
+                "file_path": "results\\multiAgents2\\Agent Controller\\Agent Controller-2000001.onnx",
+                "reward": 34.09090909090909,
+                "creation_time": 1700455151.6901805,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Agent Controller\\Agent Controller-2000001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000001,
+            "file_path": "results\\multiAgents2\\Agent Controller.onnx",
+            "reward": 34.09090909090909,
+            "creation_time": 1700455151.6901805,
+            "auxillary_file_paths": [
+                "results\\multiAgents2\\Agent Controller\\Agent Controller-2000001.pt"
+            ]
+        }
+    },
+    "Hunter Controller": {
+        "checkpoints": [
+            {
+                "steps": 499997,
+                "file_path": "results\\multiAgents2\\Hunter Controller\\Hunter Controller-499997.onnx",
+                "reward": -5.769230769230769,
+                "creation_time": 1700452445.4735336,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Hunter Controller\\Hunter Controller-499997.pt"
+                ]
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\multiAgents2\\Hunter Controller\\Hunter Controller-999981.onnx",
+                "reward": -5.0,
+                "creation_time": 1700453370.7013364,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Hunter Controller\\Hunter Controller-999981.pt"
+                ]
+            },
+            {
+                "steps": 1499991,
+                "file_path": "results\\multiAgents2\\Hunter Controller\\Hunter Controller-1499991.onnx",
+                "reward": -5.0,
+                "creation_time": 1700454256.2701583,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Hunter Controller\\Hunter Controller-1499991.pt"
+                ]
+            },
+            {
+                "steps": 1999937,
+                "file_path": "results\\multiAgents2\\Hunter Controller\\Hunter Controller-1999937.onnx",
+                "reward": -5.303030303030303,
+                "creation_time": 1700455151.5010145,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Hunter Controller\\Hunter Controller-1999937.pt"
+                ]
+            },
+            {
+                "steps": 2000001,
+                "file_path": "results\\multiAgents2\\Hunter Controller\\Hunter Controller-2000001.onnx",
+                "reward": -5.303030303030303,
+                "creation_time": 1700455151.6318953,
+                "auxillary_file_paths": [
+                    "results\\multiAgents2\\Hunter Controller\\Hunter Controller-2000001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000001,
+            "file_path": "results\\multiAgents2\\Hunter Controller.onnx",
+            "reward": -5.303030303030303,
+            "creation_time": 1700455151.6318953,
+            "auxillary_file_paths": [
+                "results\\multiAgents2\\Hunter Controller\\Hunter Controller-2000001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

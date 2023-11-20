@@ -1,0 +1,65 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 467553,
+                "file_path": "results\\model2\\Agent Controller\\Agent Controller-467553.onnx",
+                "reward": null,
+                "creation_time": 1700445281.4855943,
+                "auxillary_file_paths": [
+                    "results\\model2\\Agent Controller\\Agent Controller-467553.pt"
+                ]
+            },
+            {
+                "steps": 499951,
+                "file_path": "results\\model2\\Agent Controller\\Agent Controller-499951.onnx",
+                "reward": 35.0,
+                "creation_time": 1700445388.0217698,
+                "auxillary_file_paths": [
+                    "results\\model2\\Agent Controller\\Agent Controller-499951.pt"
+                ]
+            },
+            {
+                "steps": 500011,
+                "file_path": "results\\model2\\Agent Controller\\Agent Controller-500011.onnx",
+                "reward": 35.0,
+                "creation_time": 1700445388.0985148,
+                "auxillary_file_paths": [
+                    "results\\model2\\Agent Controller\\Agent Controller-500011.pt"
+                ]
+            },
+            {
+                "steps": 500011,
+                "file_path": "results\\model2\\Agent Controller\\Agent Controller-500011.onnx",
+                "reward": null,
+                "creation_time": 1700445919.469248,
+                "auxillary_file_paths": [
+                    "results\\model2\\Agent Controller\\Agent Controller-500011.pt"
+                ]
+            },
+            {
+                "steps": 500011,
+                "file_path": "results\\model2\\Agent Controller\\Agent Controller-500011.onnx",
+                "reward": null,
+                "creation_time": 1700447819.8206286,
+                "auxillary_file_paths": [
+                    "results\\model2\\Agent Controller\\Agent Controller-500011.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500011,
+            "file_path": "results\\model2\\Agent Controller.onnx",
+            "reward": null,
+            "creation_time": 1700447819.8206286,
+            "auxillary_file_paths": [
+                "results\\model2\\Agent Controller\\Agent Controller-500011.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

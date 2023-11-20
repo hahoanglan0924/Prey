@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1700447807",
+        "python_version": "3.9.13 (main, Oct 13 2022, 21:23:06) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\hahoa\\anaconda3\\envs\\mlagents_env\\Scripts\\mlagents-learn --run-id=model2 --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1700447819"
+    },
+    "total": 12.6618821,
+    "count": 1,
+    "self": 0.013164700000000806,
+    "children": {
+        "run_training.setup": {
+            "total": 0.02178849999999999,
+            "count": 1,
+            "self": 0.02178849999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 12.6269289,
+            "count": 1,
+            "self": 0.0001239999999995689,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.3870861,
+                    "count": 1,
+                    "self": 12.3870861
+                },
+                "trainer_threads": {
+                    "total": 1.1000000004202093e-06,
+                    "count": 1,
+                    "self": 1.1000000004202093e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.23971769999999992,
+                    "count": 1,
+                    "self": 0.0012205000000005128,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.2384971999999994,
+                            "count": 1,
+                            "self": 0.2384971999999994
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

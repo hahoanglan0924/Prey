@@ -1,0 +1,60 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 21475,
+                "file_path": "results\\model3\\Agent Controller\\Agent Controller-21475.onnx",
+                "reward": null,
+                "creation_time": 1700447542.932546,
+                "auxillary_file_paths": [
+                    "results\\model3\\Agent Controller\\Agent Controller-21475.pt"
+                ]
+            },
+            {
+                "steps": 162115,
+                "file_path": "results\\model3\\Agent Controller\\Agent Controller-162115.onnx",
+                "reward": null,
+                "creation_time": 1700447750.0853481,
+                "auxillary_file_paths": [
+                    "results\\model3\\Agent Controller\\Agent Controller-162115.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 162115,
+            "file_path": "results\\model3\\Agent Controller.onnx",
+            "reward": null,
+            "creation_time": 1700447750.0853481,
+            "auxillary_file_paths": [
+                "results\\model3\\Agent Controller\\Agent Controller-162115.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.1+cpu"
+    },
+    "Hunter Controller": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\model3\\Hunter Controller\\Hunter Controller-0.onnx",
+                "reward": null,
+                "creation_time": 1700450302.727252,
+                "auxillary_file_paths": [
+                    "results\\model3\\Hunter Controller\\Hunter Controller-0.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\model3\\Hunter Controller.onnx",
+            "reward": null,
+            "creation_time": 1700450302.727252,
+            "auxillary_file_paths": [
+                "results\\model3\\Hunter Controller\\Hunter Controller-0.pt"
+            ]
+        }
+    }
+}
